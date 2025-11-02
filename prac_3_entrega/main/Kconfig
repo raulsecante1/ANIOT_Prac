@@ -1,0 +1,9 @@
+menu "Prac3 Configuration"
+
+    config PERIOD_N
+        int "Period (s)"
+        default 1
+        help
+            Delay seconds between each signal
+
+endmenu
