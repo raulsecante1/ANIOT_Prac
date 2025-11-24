@@ -1,0 +1,9 @@
+menu "ADC Configuration"
+
+config NEO_ADC_CHANNL
+    int "ADC channl"
+    default 6
+    help
+        Channl used for ADC.
+
+endmenu

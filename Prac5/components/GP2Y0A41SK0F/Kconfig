@@ -1,0 +1,27 @@
+menu "GP2Y0A41SK0F Configuration"
+
+config EQU_A
+    string "constant A"
+    default "19.21"
+    help
+        Constant A that used to simulate the equation.
+
+config EQU_B
+    string "constant B"
+    default "2.86"
+    help
+        Constant B that used to simulate the equation.
+
+config EQU_C
+    string "constant C"
+    default "-0.176"
+    help
+        Constant C that used to simulate the equation.
+
+config CONS_N
+    int "constant N of repeated readings"
+    default 20
+    help
+        Constant N that how many readings you want.
+
+endmenu
